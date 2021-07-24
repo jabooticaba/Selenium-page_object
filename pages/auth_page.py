@@ -15,7 +15,7 @@ class AuthPage(BasePage):
       time.sleep(3)
     
     def enter_email(self, value):
-      self.passw.send_keys(value)
+      self.email.send_keys(value)
 
     def enter_pass(self, value):
       self.passw.send_keys(value)
