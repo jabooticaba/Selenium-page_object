@@ -1,4 +1,6 @@
 from selenium.webdriver.common.by import By
+import sys
+sys.path.insert(0, '..')
 
 class AuthLocators:
     AUTH_EMAIL = (By.ID, "email")
