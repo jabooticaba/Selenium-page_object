@@ -1,3 +1,5 @@
+import sys
+sys.path.insert(0, '..')
 from pages.auth_page import AuthPage
 import time
 
